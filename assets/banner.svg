@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#141a24"/>
+      <stop offset="100%" stop-color="#1a1024"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#3b2a5a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g opacity="0.15" stroke="#ffffff" fill="none">
+    <circle cx="150" cy="70" r="60"/>
+    <circle cx="1060" cy="300" r="90"/>
+    <circle cx="1000" cy="60" r="30"/>
+    <circle cx="90" cy="300" r="40"/>
+  </g>
+
+  <g opacity="0.12" stroke="#8b949e" stroke-width="1.5">
+    <path d="M 40 180 Q 300 120 600 180 T 1160 180"/>
+    <path d="M 40 220 Q 300 260 600 220 T 1160 220"/>
+  </g>
+
+  <g opacity="0.5">
+    <line x1="300" y1="55" x2="900" y2="55" stroke="url(#lineGrad)" stroke-width="1"/>
+    <line x1="300" y1="305" x2="900" y2="305" stroke="url(#lineGrad)" stroke-width="1"/>
+  </g>
+
+  <g opacity="0.2" fill="#ffffff">
+    <circle cx="220" cy="150" r="3"/>
+    <circle cx="980" cy="130" r="2.5"/>
+    <circle cx="1050" cy="220" r="2"/>
+    <circle cx="170" cy="240" r="2"/>
+    <circle cx="600" cy="40" r="2"/>
+  </g>
+
+  <text x="600" y="175" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="64.0" font-weight="bold" fill="#ffffff">
+    <tspan x="600" dy="0">Arsenal Script</tspan>
+  </text>
+
+  <text x="600" y="230" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Lightweight CLI for Arsenal Script users — single binary, built-in updater,</tspan>
+    <tspan x="600" dy="30">no dependencies to manage.</tspan>
+  </text>
+</svg>
